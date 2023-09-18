@@ -6,7 +6,7 @@ Construir un  servidor web para soportar una funcionalidad similar a la de Spark
     `git clone https://github.com/juliamejia/AplicacionesDistribuidas-AREP.git`
 
 2. Dentro de la carpeta llamada Taller3_AREP abrimos el cmd y ejecutamos el siguiente comando  
-   `mvn clean package exec:java -D "exec.mainClass"="org.example.HttpServer"`
+   `mvn clean package exec:java -D "exec.mainClass"="org.example.Services.RestService"`
    lo cual nos mostrará que el proyecto se ejecutó correctamente  
    <img width="567" alt="image" src="https://github.com/juliamejia/AplicacionesDistribuidas-AREP/assets/98657146/a2d6e0cd-2cc7-4998-8636-f09336c65408">
 3. Desde cualquier browser, digitamos la direccion:  
